@@ -3,7 +3,10 @@ public class Book {
     private int date;
     private Author Author;
 
-    public Book(String nameBook, int date, String Author) {
+    public Book(String nameBook, int date, Author author) {
+        this.nameBook = nameBook;
+        this.date = date;
+        this.Author = author;
     }
     public String getNameBook() {
         return this.nameBook;
